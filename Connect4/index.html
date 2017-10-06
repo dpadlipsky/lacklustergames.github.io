@@ -1,0 +1,114 @@
+<html>
+   <head>
+      <title>Connect Four!</title>
+   </head>
+   <style>
+      table{
+      margin: auto;
+      background-color: lightcyan;
+      }
+      h1{
+      margin: auto;
+      font-family:monospace;
+      font-variant: small-caps;
+      font-size: 40px;
+      }
+      tr{
+      width:100%;
+      height:100%;
+      background-color:white;
+      }
+      td{
+      height:100px;
+      width: 100px;
+      background-size: 85% 85%;
+			background-repeat: no-repeat;
+
+			background-position: center;
+      background-color: lightblue;
+      }
+      body{
+        background-color: lightcyan;
+        margin:auto;
+        text-align: center;
+      }
+      #screenText{
+  			margin: auto;
+  			font-size: 30px;
+  			font-family: monospace;
+  			font-variant: small-caps;
+
+  		}
+  		#playagain{
+  			margin: auto;
+  			font-size: 25px;
+  			font-family: monospace;
+  			font-variant: small-caps;
+  		}
+   </style>
+   <body>
+     <h1><b>Connect 4</b></h1>
+      <table border="1">
+         <tbody>
+            <tr>
+               <td id="sqr00" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr01" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr02" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr03" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr04" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr05" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr06" onclick="buttonPress(id)">&nbsp;</td>
+            </tr>
+            <tr>
+               <td id="sqr10" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr11" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr12" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr13" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr14" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr15" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr16" onclick="buttonPress(id)">&nbsp;</td>
+            </tr>
+            <tr>
+               <td id="sqr20" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr21" onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr22"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr23"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr24"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr25"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr26"onclick="buttonPress(id)">&nbsp;</td>
+            </tr>
+            <tr>
+               <td id="sqr30"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr31"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr32"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr33"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr34"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr35"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr36"onclick="buttonPress(id)">&nbsp;</td>
+            </tr>
+            <tr>
+               <td id="sqr40"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr41"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr42"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr43"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr44"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr45"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr46"onclick="buttonPress(id)">&nbsp;</td>
+            </tr>
+            <tr>
+               <td id="sqr50"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr51"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr52"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr53"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr54"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr55"onclick="buttonPress(id)">&nbsp;</td>
+               <td id="sqr56"onclick="buttonPress(id)">&nbsp;</td>
+            </tr>
+         </tbody>
+      </table>
+      <p id="screenText">Player 1's Turn</p>
+  		<br/>
+  		<p id="playagain"></p>
+   </body>
+   <script src="./connect4.js"></script>
+</html>
