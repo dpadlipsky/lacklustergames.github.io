@@ -1,0 +1,6 @@
+[submodule "tictactoe.github.io"]
+	path = tictactoe.github.io
+	url = git@github.com:dpadlipsky/tictactoe.github.io.git
+[submodule "connect4.github.io"]
+	path = connect4.github.io
+	url = git@github.com:dpadlipsky/connect4.github.io.git
